@@ -8,3 +8,367 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+img {
+  width: 5%;
+}
+@media screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Helvetica, sans-serif;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  /* NAV BAR */
+  nav {
+    background-color: #540b51;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+  }
+
+  .logo {
+    width: 36%;
+    margin-left: 10%;
+  }
+
+  .info {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 5%;
+  }
+  .info img {
+    width: 100%;
+    background-color: #540b51;
+  }
+  .info button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+
+  header {
+    padding-top: 16%;
+    background-color: #540b51;
+  }
+
+  /* HEADER */
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header h1 {
+    font-size: 55px;
+    text-align: center;
+    width: 70%;
+    color: white;
+  }
+  .header p {
+    width: 60%;
+    padding-top: 2%;
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    font-weight: 200;
+  }
+  .header strong {
+    color: #ecb12f;
+  }
+
+  /* BUTTON IN HEADER */
+  .button {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 3%;
+  }
+
+  .button button {
+    margin-bottom: 3%;
+    height: 60px;
+    font-size: 18px;
+
+    font-weight: 600;
+    border-radius: 5px;
+  }
+  .white {
+    color: #540b51;
+    border: none;
+    background-color: white;
+  }
+
+  .google {
+    background-color: #4285f4;
+    display: flex;
+    flex-direction: row;
+    border: none;
+  }
+  .google img {
+    background-color: white;
+    width: 7%;
+    margin: 1%;
+  }
+  .google span {
+    color: white;
+    margin-left: 23%;
+    margin-top: 2%;
+  }
+
+  /* IMAGE HEADER */
+  .image {
+    margin-top: 2%;
+
+    height: 550px;
+    overflow: hidden;
+  }
+  .product {
+    width: 145%;
+  }
+
+  /* MAIN CONTENT */
+  main {
+    background-color: #f3eae2;
+    padding-top: 8%;
+  }
+  .company p {
+    text-align: center;
+    font-weight: 540;
+    font-size: 20px;
+  }
+
+  .company-logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 18%;
+    height: 150px;
+  }
+
+  .airbnb {
+    width: 30%;
+  }
+  .nasa {
+    width: 18%;
+  }
+  .uber {
+    width: 20%;
+  }
+  .target {
+    width: 12%;
+  }
+  .nyt {
+    width: 60%;
+  }
+  .spotify {
+    width: 35%;
+  }
+
+  /* TEAM */
+  .team {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .team {
+    margin-top: 5%;
+    overflow: hidden;
+  }
+  .team img {
+    width: 110%;
+    padding-right: 15%;
+  }
+  .team h2,
+  .team p,
+  .team a {
+    padding-left: 4%;
+    padding-top: 4%;
+  }
+  .team h2 {
+    font-size: 35px;
+    font-weight: 600;
+    width: 65%;
+  }
+  .team p {
+    font-size: 25px;
+    width: 80%;
+    height: 100%;
+    line-height: 1.5;
+
+    margin-bottom: 2%;
+  }
+  .team span {
+    font-size: 25px;
+    text-decoration: none;
+    color: #2e71a6;
+    line-height: 1.5;
+  }
+  a .arrow {
+    width: 20%;
+    padding-left: 2%;
+  }
+  a {
+    text-decoration: none;
+  }
+  .except {
+    width: 110%;
+    margin-left: 5%;
+  }
+
+  /* DERNIERE SECTION */
+  .fin {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3%;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .fin h3,
+  .welcome h3 {
+    font-size: 35px;
+    font-weight: 600;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 2%;
+  }
+  .fin-text {
+    font-size: 25px;
+    width: 70%;
+    margin-left: 14%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 3%;
+  }
+
+  /* BUTTON DE FIN */
+
+  .button2 {
+    width: 100%;
+    margin-left: 12%;
+  }
+  .violet {
+    background-color: #540b51;
+    color: white;
+  }
+
+  .contour {
+    border-color: #540b51;
+    color: #540b51;
+    background-color: white;
+  }
+
+  li {
+    margin-top: 8%;
+  }
+  li span {
+    font-size: 53px;
+    font-weight: 800;
+    color: #540b51;
+
+    margin-left: 2%;
+  }
+
+  .sous-text {
+    font-size: 19px;
+    width: 30%;
+    margin-left: 37%;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 600;
+    padding-bottom: 1%;
+  }
+
+  .sup {
+    width: 55%;
+    margin-left: 22%;
+    color: #454245;
+  }
+
+  /* DIGITAL IQ */
+  .welcome {
+    margin-top: 2%;
+    background-color: #540b51;
+    padding-top: 6%;
+  }
+
+  .white {
+    border: solid rgb(255, 255, 255);
+  }
+
+  .welcome h3 {
+    color: white;
+    width: 65%;
+    padding-right: 14%;
+  }
+
+  /* CIRCLE */
+
+  /* FOOTER */
+
+  footer img {
+    width: 10%;
+    padding-bottom: 5%;
+  }
+  footer {
+    margin: 2%;
+  }
+
+  .float {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #454245;
+    margin-bottom: 8%;
+  }
+
+  .float ul {
+    height: 300px;
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+
+  .bold {
+    font-weight: 800;
+    color: black;
+  }
+  .float li {
+    list-style-type: none;
+  }
+
+  hr {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
